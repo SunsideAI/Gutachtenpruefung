@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 
-ANTHROPIC_API_KEY = os.environ.get('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')
+ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 
 
